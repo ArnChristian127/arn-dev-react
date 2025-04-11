@@ -1,0 +1,167 @@
+[
+    {
+      "title": "Background Skills",
+      "lists": [
+        {
+          "names": "Html",
+          "link": "/logo/html.png"
+        },
+        {
+          "names": "Css",
+          "link": "/logo/css-3.png"
+        },
+        {
+          "names": "JavaScript",
+          "link": "/logo/js.png"
+        },
+        {
+          "names": "Bootstrap",
+          "link": "/logo/bootstrap-logo-shadow.png"
+        },
+        {
+          "names": "Php",
+          "link": "/logo/php-logo-1.png"
+        },
+        {
+          "names": "Java",
+          "link": "logo/java.png"
+        },
+        {
+          "names": "Lua",
+          "link": "logo/lua.png"
+        },
+        {
+          "names": "Ajax",
+          "link": "logo/ajax.svg"
+        },
+        {
+          "names": "JQuery",
+          "link": "logo/jquery-logo.png"
+        },
+        {
+          "names": "C++",
+          "link": "logo/cPlus.png"
+        },
+        {
+          "names": "MySql",
+          "link": "logo/mysql-original-wordmark.svg"
+        },
+        {
+          "names": "Python",
+          "link": "logo/python.png"
+        }
+      ]
+    },
+    {
+      "title": "New learnings",
+      "lists": [
+        {
+          "names": "ReactJs",
+          "link": "logo/React_logo.png"
+        },
+        {
+          "names": "NodeJs",
+          "link": "logo/Node.js-Logo.wine.png"
+        },
+        {
+          "names": "Vite",
+          "link": "logo/vite-js-4096-logo.png"
+        },
+        {
+          "names": "TailwindCSS",
+          "link": "logo/Tailwind_CSS.png"
+        },
+        {
+          "names": "Bulma",
+          "link": "logo/bulma.jpg"
+        },
+        {
+          "names": "C",
+          "link": "logo/letter-c.png"
+        },
+        {
+          "names": "C#",
+          "link": "logo/html.png"
+        },
+        {
+          "names": "Kotlin",
+          "link": "logo/c-sharp.png"
+        },
+        {
+          "names": "Npm",
+          "link": "logo/npm-original-wordmark.svg"
+        },
+        {
+          "names": "Xml",
+          "link": "logo/xml.png"
+        }
+      ]
+    },
+    {
+      "title": "Upcoming list",
+      "lists": [
+        {
+          "names": "VueJs",
+          "link": "logo/vuejs-original.svg"
+        },
+        {
+          "names": "TypeScript",
+          "link": "logo/Typescript-01.png"
+        },
+        {
+          "names": "CoffeeScript",
+          "link": "logo/coffeescript.png"
+        },
+        {
+          "names": "MongoDB",
+          "link": "logo/mongodb-original-wordmark.svg"
+        },
+        {
+          "names": "Django",
+          "link": "logo/logo-python-django.png"
+        },
+        {
+          "names": "Material UI",
+          "link": "logo/materialui.png"
+        },
+        {
+          "names": "AngularJS",
+          "link": "logo/angularjs-original.svg"
+        }
+      ]
+    },
+    {
+      "title": "Utilities",
+      "lists": [
+        {
+          "names": "Github",
+          "link": "logo/github.png"
+        },
+        {
+          "names": "Git",
+          "link": "logo/git.png"
+        },
+        {
+          "names": "XAMPP",
+          "link": "logo/xampp-logo-freelogovectors.net_.png"
+        },
+        {
+          "names": "Android Studio",
+          "link": "logo/image9.png"
+        },
+        {
+          "names": "Visual Studio",
+          "link": "logo/visual-studio.png"
+        },
+        {
+          "names": "Visual Studio Code",
+          "link": "logo/visual-studio-code.png"
+        },
+        {
+          "names": "Netbeans",
+          "link": "logo/netbeans.png"
+        }
+      ]
+    }
+]
+  

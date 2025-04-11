@@ -1,0 +1,32 @@
+[
+    {
+        "name": "MireiKei",
+        "lang": "Python, SQLite, JSON",
+        "desc": "A.I bot on discord",
+        "links": "/cards/MireiKei.png"
+    },
+    {
+        "name": "ArnDiary",
+        "lang": "Html, Css, JavaScript",
+        "desc": "Final practical exam in Introduction to Digital Graphics Design.",
+        "links": "/cards/arndiary.jpeg"
+    },
+    {
+        "name": "Fluorohydride",
+        "lang": "C++, SQLite, C, Csharp, Lua",
+        "desc": "A collaboration project with other countries that involes in YGOPro Card Game.",
+        "links": "/cards/fluoro.jpg"
+    },
+    {
+        "name": "STI Zero Based Calculator",
+        "lang": "Html, Css, JavaScript",
+        "desc": "Computing the final grades in each subject.",
+        "links": "/cards/C.png"
+    },
+    {
+        "name": "Indev Arn",
+        "lang": "Html, Css, JavaScript",
+        "desc": "My previous Web Portfolio with pure hardcoded css",
+        "links": "/cards/indef.png"
+    }
+]
