@@ -7,8 +7,52 @@
                 "url": "/assets/html-icon.png"
             },
             {
-                "name": "Html",
-                "url": "/assets/html-icon.png"
+                "name": "Css",
+                "url": "/assets/css-3.png"
+            },
+            {
+                "name": "JavaScript",
+                "url": "/assets/js.png"
+            },
+            {
+                "name": "Java",
+                "url": "/assets/java.png"
+            },
+            {
+                "name": "C++",
+                "url": "/assets/c-.png"
+            },
+            {
+                "name": "Lua",
+                "url": "/assets/lua.png"
+            },
+            {
+                "name": "Python",
+                "url": "/assets/python.png"
+            },
+            {
+                "name": "Bootstrap",
+                "url": "/assets/bootstrap-logo-shadow.png"
+            },
+            {
+                "name": "Node Js",
+                "url": "/assets/Node.js-Logo.wine.png"
+            },
+            {
+                "name": "Php",
+                "url": "/assets/php-logo-1.png"
+            },
+            {
+                "name": "MySql",
+                "url": "/assets/mysql_PNG22.png"
+            },
+            {
+                "name": "Ajax",
+                "url": "/assets/ajax.png"
+            },
+            {
+                "name": "JQuery",
+                "url": "/assets/jquery.png"
             }
         ]
     },

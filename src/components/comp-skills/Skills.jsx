@@ -15,7 +15,7 @@ function Skills() {
                     {SkillList.map((item, index) => (
                         <div className="bg-blue-400 w-full h-auto min-h-[300px] p-4 flex flex-col gap-5 rounded-lg" key={index}>
                             <h1 className="text-2xl lg:text-3xl font-bold text-center">{item.title}</h1>
-                            <div className="flex justify-center gap-2">
+                            <div className="flex justify-center flex-wrap gap-2">
                                 {item.data.map((item, index) => (
                                     <div className="flex items-center gap-2 border-2 border-white px-2 py-1 rounded-lg"key={index}>
                                         <h1>{item.name}</h1>
