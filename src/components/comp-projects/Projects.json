@@ -41,7 +41,7 @@
         ]
     },
     {
-        "pics": "/projects/arndiary.png",
+        "pics": "/projects/indev.png",
         "name": "Indev Arn",
         "desc": "My previous Web Portfolio with pure hardcoded css",
         "types": [
