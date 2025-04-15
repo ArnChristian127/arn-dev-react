@@ -19,7 +19,7 @@ function Skills() {
                                 {item.data.map((item, index) => (
                                     <div className="flex items-center gap-2 border-2 border-white px-2 py-1 rounded-lg"key={index}>
                                         <h1>{item.name}</h1>
-                                        <img src={item.url} width={30}/>
+                                        <img src={`${import.meta.env.BASE_URL}${item.url}`} width={30} />
                                     </div>
                                 ))}
                             </div>
