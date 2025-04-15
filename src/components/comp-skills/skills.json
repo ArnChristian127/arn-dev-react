@@ -20,35 +20,35 @@
             },
             {
                 "name": "Lua",
-                "url": "/assets/html-icon.png"
+                "url": "/assets/lua.png"
             },
             {
                 "name": "JQuery",
-                "url": "/assets/html-icon.png"
+                "url": "/assets/jquery.png"
             },
             {
                 "name": "Php",
-                "url": "/assets/html-icon.png"
+                "url": "/assets/php-logo-1.png"
             },
             {
                 "name": "Ajax",
-                "url": "/assets/html-icon.png"
+                "url": "/assets/ajax.png"
             },
             {
                 "name": "MySql",
-                "url": "/assets/html-icon.png"
+                "url": "/assets/mysql_PNG22.png"
             },
             {
                 "name": "C++",
-                "url": "/assets/html-icon.png"
+                "url": "/assets/c-.png"
             },
             {
                 "name": "JavaScript",
-                "url": "/assets/html-icon.png"
+                "url": "/assets/js.png"
             },
             {
                 "name": "Bootstrap",
-                "url": "/assets/html-icon.png"
+                "url": "/assets/bootstrap-logo-shadow.png"
             }
         ]
     },
