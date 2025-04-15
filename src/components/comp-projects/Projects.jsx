@@ -8,13 +8,18 @@ function Projects() {
         setClickedValue(items);
     };
     const handleClose = () => {
-        setClickedValue(null);
+        animate('.fade', {
+            opacity: [1, 0],
+            translateY: [0, 500],
+        })
+        setTimeout(() => {
+            setClickedValue(null);
+        }, 300)
     };
     useEffect(() => {
         animate('.fade', {
             opacity: [0, 1],
             translateY: [500, 0],
-            
         })
     })
     return (

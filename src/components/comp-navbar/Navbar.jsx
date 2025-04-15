@@ -1,6 +1,28 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { animate } from 'animejs';
 function Navbar() {
     const [isActivated, setActivate] = useState(false);
+    const handlerClick = () => {
+        if (isActivated) {
+            animate('.slide-down', {
+                opacity: [1, 0],
+                translateY: [0, -500],
+                duration: 2000,
+            })
+            setTimeout(() => {
+                setActivate(false);
+            }, 1000)
+        }
+        else {
+            setActivate(true);
+        }
+    }
+    useEffect(() => {
+        animate('.slide-down', {
+            opacity: [0, 1],
+            translateY: [-500, 0],
+        })
+    })
     const navbarList = [
         {href: '#about', label: 'About'},
         {href: '#skills', label: 'Skills'},
@@ -26,7 +48,7 @@ function Navbar() {
                         </button>
                     </div>
                     <div className="flex lg:hidden">
-                        <button type="button" onClick={() => setActivate(!isActivated)}>
+                        <button type="button" onClick={() => handlerClick()}>
                             <svg xmlns="http://www.w3.org/2000/svg" width={30} height={30} fill="currentColor" className="bi bi-list hover:fill-blue-400 active:fill-blue-400" viewBox="0 0 16 16">
                                 <path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
                             </svg>
@@ -35,7 +57,7 @@ function Navbar() {
                 </div>
             </nav>
             {isActivated && (
-                <nav className="px-4 py-3 bg-blue-950 text-white lg:hidden fixed top-14 z-50 w-full">
+                <nav className="px-4 py-3 bg-blue-950 text-white lg:hidden fixed top-14 z-40 w-full slide-down">
                     <div className="container mx-auto flex flex-col mx-auto">
                         <ul className="space-y-2 font-bold text-base">
                             {navbarList.map((items, index) => (<li key={index}><a href={items.href} className="hover:text-blue-400 active:text-blue-400">{items.label}</a></li>))}
