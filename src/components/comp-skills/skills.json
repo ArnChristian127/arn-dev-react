@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Learned Skills",
+        "data": [
+            {
+                "name": "Html",
+                "url": "/assets/html-icon.png"
+            },
+            {
+                "name": "Html",
+                "url": "/assets/html-icon.png"
+            }
+        ]
+    },
+    {
+        "title": "Learned Skills",
+        "data": [
+            {
+                "name": "Html",
+                "url": "/assets/html-logo.png"
+            }
+        ]
+    },
+    {
+        "title": "Learned Skills",
+        "data": [
+            {
+                "name": "Html",
+                "url": "/assets/html-logo.png"
+            }
+        ]
+    },
+    {
+        "title": "Learned Skills",
+        "data": [
+            {
+                "name": "Html",
+                "url": "/assets/html-logo.png"
+            }
+        ]
+    }
+]
