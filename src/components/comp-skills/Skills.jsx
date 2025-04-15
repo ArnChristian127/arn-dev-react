@@ -2,7 +2,7 @@ import ArnProfile from '../../assets/profile.jpg';
 import SkillList from './skills.json';
 function Skills() {
     return (
-        <section className="bg-gradient-to-b from-blue-950 to-blue-900 py-30 px-4 text-white">
+        <section className="bg-gradient-to-b from-blue-950 to-blue-900 py-30 px-4 text-white" id="skills">
             <div className="grid grid-cols-1 container mx-auto">
                 <div className="flex flex-col text-center">
                     <h1 className="text-3xl md:text-5xl lg:text-5xl font-bold">Skills</h1>

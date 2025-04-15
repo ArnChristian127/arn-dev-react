@@ -98,11 +98,43 @@
         ]
     },
     {
-        "title": "Learned Skills",
+        "title": "Skills that I want to learn more about",
         "data": [
             {
-                "name": "Html",
-                "url": "/assets/html-logo.png"
+                "name": "NextJs",
+                "url": "/assets/next.png"
+            },
+            {
+                "name": "AngularJs",
+                "url": "/assets/angular.png"
+            },
+            {
+                "name": "VueJs",
+                "url": "/assets/vue.png"
+            },
+            {
+                "name": "Django",
+                "url": "/assets/django.png"
+            },
+            {
+                "name": "MongoDB",
+                "url": "/assets/mongo.png"
+            },
+            {
+                "name": "CoffeeScript",
+                "url": "/assets/coffeescript.png"
+            },
+            {
+                "name": "TypeScript",
+                "url": "/assets/typescript.png"
+            },
+            {
+                "name": "Laravel",
+                "url": "/assets/laravel.png"
+            },
+            {
+                "name": "Numpy",
+                "url": "/assets/numpy.png"
             }
         ]
     },
