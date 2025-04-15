@@ -17,7 +17,7 @@ function Skills() {
                     setHasAnimated(true);
                 }
             },
-            { threshold: 0 }
+            { threshold: 0.5 }
         );
         if (element) observer.observe(element);
         return () => {
