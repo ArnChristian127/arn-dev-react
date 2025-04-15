@@ -15,7 +15,7 @@ function Navbar() {
                 <div className="container mx-auto flex justify-between items-center">
                     <h1 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold select-none">ArnDev</h1>
                     <ul className="space-x-6 flex font-bold text-lg mx-auto hidden lg:flex">
-                        {navbarList.map((items, index) => (<li key={index}><a href={items.href} className="hover:text-blue-400">{items.label}</a></li>))}
+                        {navbarList.map((items, index) => (<li key={index}><a href={items.href} className="hover:text-blue-400 active:text-blue-400">{items.label}</a></li>))}
                     </ul>
                     <div className="flex hidden lg:flex">
                         <button className="flex items-center bg-gradient-to-r from-blue-500 to-sky-800 px-4 py-2 font-bold text-lg rounded-lg gap-2">
@@ -27,7 +27,7 @@ function Navbar() {
                     </div>
                     <div className="flex lg:hidden">
                         <button type="button" onClick={() => setActivate(!isActivated)}>
-                            <svg xmlns="http://www.w3.org/2000/svg" width={30} height={30} fill="currentColor" className="bi bi-list hover:fill-blue-400" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width={30} height={30} fill="currentColor" className="bi bi-list hover:fill-blue-400 active:fill-blue-400" viewBox="0 0 16 16">
                                 <path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
                             </svg>
                         </button>
@@ -38,7 +38,7 @@ function Navbar() {
                 <nav className="px-4 py-3 bg-blue-950 text-white lg:hidden fixed top-14 z-50 w-full">
                     <div className="container mx-auto flex flex-col mx-auto">
                         <ul className="space-y-2 font-bold text-base">
-                            {navbarList.map((items, index) => (<li key={index}><a href={items.href} className="hover:text-blue-400">{items.label}</a></li>))}
+                            {navbarList.map((items, index) => (<li key={index}><a href={items.href} className="hover:text-blue-400 active:text-blue-400">{items.label}</a></li>))}
                         </ul>
                         <div className="flex mt-3">
                             <button className="flex items-center bg-gradient-to-r from-blue-500 to-blue-800 px-4 py-2 font-bold text-md rounded-lg gap-2">

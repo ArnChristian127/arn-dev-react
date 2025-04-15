@@ -30,7 +30,8 @@ function About() {
         })
         animate('.fade', {
             opacity: [0, 1],
-            duration: 3000,
+            translateY: [200, 0],
+            duration: 1000,
         })
     }, [])
     return (

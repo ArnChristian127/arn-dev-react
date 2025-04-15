@@ -36,7 +36,7 @@ function Skills() {
                 </div>
                 <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 mx-auto container gap-10 lg:px-5">
                     {SkillList.map((item, index) => (
-                        <div className="bg-blue-400 w-full h-auto min-h-[300px] p-4 flex flex-col gap-5 rounded-lg stagger hover:bg-white hover:text-blue-400" key={index}>
+                        <div className="bg-blue-400 w-full h-auto min-h-[300px] p-4 flex flex-col gap-5 rounded-lg stagger hover:bg-white active:bg-white hover:text-blue-400 active:text-blue-400" key={index}>
                             <h1 className="text-2xl lg:text-3xl font-bold text-center">{item.title}</h1>
                             <div className="flex justify-center flex-wrap gap-2">
                                 {item.data.map((item, index) => (
