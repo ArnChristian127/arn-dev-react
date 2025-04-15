@@ -28,11 +28,15 @@ function About() {
             opacity: [0, 1],
             delay: stagger(200)
         })
+        animate('.fade', {
+            opacity: [0, 1],
+            duration: 3000,
+        })
     }, [])
     return (
         <section id="about" className="relative bg-gradient-to-b from-sky-800 to-blue-950 text-white py-30 px-4 overflow-hidden flex justify-center items-center">
             <div className="grid grid-cols-1 lg:grid-cols-2 container mx-auto gap-10 relative z-30">
-                <div className="flex items-center order-1 lg:order-0">
+                <div className="flex items-center order-1 lg:order-0 fade">
                     <div className="text-center lg:text-left">
                         <h1 className="text-3xl md:text-5xl lg:text-5xl font-bold">Hi, I am Arn Christian S. Rosales</h1>
                         <h1 className="text-2xl md:text-4xl lg:text-4xl mt-4">
@@ -74,7 +78,7 @@ function About() {
                         </div>
                     </div>
                 </div>
-                <div className="flex justify-center lg:justify-end order-0 lg:order-1 relative">
+                <div className="flex justify-center lg:justify-end order-0 lg:order-1 relative fade">
                     <img src={ArnProfile} className="w-full h-auto lg:max-w-[400px] max-w-[350px] rounded-full"/>
                 </div>
             </div>

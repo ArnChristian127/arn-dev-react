@@ -139,11 +139,27 @@
         ]
     },
     {
-        "title": "Learned Skills",
+        "title": "Utilities & IDE",
         "data": [
             {
-                "name": "Html",
-                "url": "/assets/html-logo.png"
+                "name": "Netbeans",
+                "url": "/assets/netbeans.png"
+            },
+            {
+                "name": "Visual Studio",
+                "url": "/assets/vs.png"
+            },
+            {
+                "name": "Visual Studio Code",
+                "url": "/assets/vscode.png"
+            },
+            {
+                "name": "Android Studio",
+                "url": "/assets/android.png"
+            },
+            {
+                "name": "XAMPP",
+                "url": "/assets/xampp.png"
             }
         ]
     }
