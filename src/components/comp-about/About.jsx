@@ -9,7 +9,7 @@ function About() {
         let widthRandom = Math.floor(Math.random() * 7) + 4;
         let poseRandom = Math.floor(Math.random() * 70) + 10;
         container.push(
-            <div className="absolute z-10 flex items-center justify-center top-200 lg:top-130" key={i}
+            <div className="absolute z-10 flex items-center justify-center top-200 lg:top-130 select-none" key={i}
                 style={{
                     right:  `${poseRandom}%`,
                     left: `${poseRandom}%`,

@@ -53,11 +53,47 @@
         ]
     },
     {
-        "title": "Learned Skills",
+        "title": "New Learning Skills",
         "data": [
             {
-                "name": "Html",
-                "url": "/assets/html-logo.png"
+                "name": "ReactJs",
+                "url": "/assets/React_logo.png"
+            },
+            {
+                "name": "NodeJs",
+                "url": "/assets/Node.js-Logo.wine.png"
+            },
+            {
+                "name": "Npm",
+                "url": "/assets/npm.png"
+            },
+            {
+                "name": "Bulma",
+                "url": "/assets/bulma.jpg"
+            },
+            {
+                "name": "Tailwind",
+                "url": "/assets/tailwind.png"
+            },
+            {
+                "name": "C",
+                "url": "/assets/letter-c.png"
+            },
+            {
+                "name": "Vite",
+                "url": "/assets/vite.png"
+            },
+            {
+                "name": "CSharp",
+                "url": "/assets/c-sharp.png"
+            },
+            {
+                "name": "Kotlin",
+                "url": "/assets/kotlin.png"
+            },
+            {
+                "name": "Xml",
+                "url": "/assets/xml.png"
             }
         ]
     },
