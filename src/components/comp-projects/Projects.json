@@ -1,0 +1,53 @@
+[
+    {
+        "pics": "/projects/MireiKei.png",
+        "name": "MireiKei Bot",
+        "desc": "A.I bot on discord.",
+        "types": [
+            {"lang": "Python"},
+            {"lang": "Json"},
+            {"lang": "Database"}
+        ]
+    },
+    {
+        "pics": "/projects/arndiary.png",
+        "name": "ArnDiary",
+        "desc": "Final practical exam in Introduction to Digital Graphics Design.",
+        "types": [
+            {"lang": "Html"},
+            {"lang": "Css"},
+            {"lang": "JavaScript"}
+        ]
+    },
+    {
+        "pics": "/projects/ygopro.png",
+        "name": "YGOPro",
+        "desc": "A collaboration project with other countries that involes in YGOPro Card Game.",
+        "types": [
+            {"lang": "Lua"},
+            {"lang": "C++"},
+            {"lang": "CSharp"},
+            {"lang": "Database"}
+        ]
+    },
+    {
+        "pics": "/projects/sti-zero.png",
+        "name": "STI-Zero Based Calculator",
+        "desc": "Computing the final grades in each subject.",
+        "types": [
+            {"lang": "Html"},
+            {"lang": "Css"},
+            {"lang": "JavaScript"}
+        ]
+    },
+    {
+        "pics": "/projects/arndiary.png",
+        "name": "Indev Arn",
+        "desc": "My previous Web Portfolio with pure hardcoded css",
+        "types": [
+            {"lang": "Html"},
+            {"lang": "Css"},
+            {"lang": "JavaScript"}
+        ]
+    }
+]

@@ -1,33 +1,9 @@
 import SkillList from './skills.json';
-import { animate, stagger } from 'animejs';
-import { useEffect, useState } from 'react';
 function Skills() {
-    const [hasAnimated, setHasAnimated] = useState(false);
-    useEffect(() => {
-        const element = document.querySelector('.stagger');
-        const observer = new IntersectionObserver(
-            ([entry]) => {
-                if (entry.isIntersecting && !hasAnimated) {
-                    animate('.stagger', {
-                        translateX: [500, 0],
-                        duration: 1000,
-                        opacity: [0, 0.5, 1],
-                        delay: stagger(200)
-                    });
-                    setHasAnimated(true);
-                }
-            },
-            { threshold: 0.5 }
-        );
-        if (element) observer.observe(element);
-        return () => {
-            if (element) observer.unobserve(element);
-        };
-    }, [hasAnimated]);
     return (
         <section className="bg-gradient-to-b from-blue-950 to-blue-900 py-30 px-4 text-white overflow-hidden" id="skills">
             <div className="grid grid-cols-1 container mx-auto">
-                <div className="flex flex-col text-center">
+                <div className="flex flex-col text-center stagger">
                     <h1 className="text-3xl md:text-5xl lg:text-5xl font-bold">Skills</h1>
                     <p className="text-lg md:text-xl lg:text-xl text-gray-300 mt-3"> 
                         I have acquired a diverse set of skills through my college and senior highschool education, particularly in the field of technology.
@@ -42,7 +18,7 @@ function Skills() {
                                 {item.data.map((item, index) => (
                                     <div className="flex items-center gap-2 border-2 border-white px-2 py-1 rounded-lg"key={index}>
                                         <h1>{item.name}</h1>
-                                        <img src={`${import.meta.env.BASE_URL}${item.url}`} width={30} />
+                                        <img src={`${import.meta.env.BASE_URL}${item.url}`} width={30} alt={item.name}/>
                                     </div>
                                 ))}
                             </div>
