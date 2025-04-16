@@ -5,6 +5,7 @@ import Projects from './components/comp-projects/Projects';
 import { animate } from 'animejs';
 import { useEffect } from 'react';
 import './App.css';
+import Education from './components/comp-education/Education';
 
 function App() {
   useEffect(() => {
@@ -38,6 +39,7 @@ function App() {
       <About/>
       <Skills/>
       <Projects/>
+      <Education/>
     </>
   );
 }
