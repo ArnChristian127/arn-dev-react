@@ -26,7 +26,7 @@ function App() {
           }
         });
       },
-      { threshold: 0 }
+      { threshold: 0.5 }
     );
     elements.forEach((el) => observer.observe(el));
     return () => {
