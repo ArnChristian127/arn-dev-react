@@ -1,28 +1,14 @@
-import { useState, useEffect } from 'react';
-import { animate } from 'animejs';
+import { useState } from 'react';
 function Navbar() {
     const [isActivated, setActivate] = useState(false);
     const handlerClick = () => {
         if (isActivated) {
-            animate('.slide-down', {
-                opacity: [1, 0],
-                translateY: [0, -500],
-                duration: 2000,
-            })
-            setTimeout(() => {
-                setActivate(false);
-            }, 1000)
+            setActivate(false);
         }
         else {
             setActivate(true);
         }
     }
-    useEffect(() => {
-        animate('.slide-down', {
-            opacity: [0, 1],
-            translateY: [-500, 0],
-        })
-    })
     const navbarList = [
         {href: '#about', label: 'About'},
         {href: '#skills', label: 'Skills'},
