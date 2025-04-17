@@ -5,11 +5,13 @@ import Projects from './components/comp-projects/Projects';
 import Education from './components/comp-education/Education';
 import Certificates from './components/comp-certificates/Certificates';
 import Contact from './components/comp-contact/Contact';
+import Sand from './assets/sand.png';
 import { animate } from 'animejs';
 import { useEffect } from 'react';
 import './App.css';
 
 function App() {
+  const currentYear = new Date().getFullYear();
   useEffect(() => {
     const elements = document.querySelectorAll('.stagger, .staggerl');
     const observer = new IntersectionObserver(
@@ -44,6 +46,12 @@ function App() {
       <Education/>
       <Certificates/>
       <Contact/>
+      <footer className="bg-blue-800 text-white">
+        <div className="text-center">
+          <h1 className="text-2xl">&copy;{new Date().getFullYear()} ArnDev. All rights reserved.</h1>
+          <img src={Sand} alt="sand" className="mt-10"></img>
+        </div>
+      </footer>
     </>
   );
 }
