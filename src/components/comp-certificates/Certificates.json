@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Introduction to C++",
+        "about": "Simple Learn",
+        "desc": "Online course certification about learning the basics of C++",
+        "url": "/certificates/certificate-c.png"
+    },
+    {
+        "name": "Computer Programing 2",
+        "about": "STI College",
+        "desc": "STI Subject course certification about learning the basics of Java",
+        "url": "/certificates/certificate-java.jpg"
+    }
+]

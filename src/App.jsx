@@ -2,10 +2,11 @@ import Navbar from './components/comp-navbar/Navbar';
 import About from './components/comp-about/About';
 import Skills from './components/comp-skills/Skills';
 import Projects from './components/comp-projects/Projects';
+import Education from './components/comp-education/Education';
+import Certificates from './components/comp-certificates/Certificates';
 import { animate } from 'animejs';
 import { useEffect } from 'react';
 import './App.css';
-import Education from './components/comp-education/Education';
 
 function App() {
   useEffect(() => {
@@ -26,7 +27,7 @@ function App() {
           }
         });
       },
-      { threshold: 0.5 }
+      { threshold: 0 }
     );
     elements.forEach((el) => observer.observe(el));
     return () => {
@@ -40,6 +41,7 @@ function App() {
       <Skills/>
       <Projects/>
       <Education/>
+      <Certificates/>
     </>
   );
 }
