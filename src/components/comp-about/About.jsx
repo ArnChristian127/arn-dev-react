@@ -80,7 +80,7 @@ function About() {
                     </div>
                 </div>
                 <div className="flex justify-center lg:justify-end order-0 lg:order-1 relative fade">
-                    <img src={ArnProfile} className="w-full h-auto lg:max-w-[400px] max-w-[350px] rounded-full" alt={"ArnProfile"}/>
+                    <img src={ArnProfile} className="w-full h-auto lg:max-w-[400px] md:max-w-[350px] sm:max-w-[300px] max-w-[250px] rounded-full" alt={"ArnProfile"}/>
                 </div>
             </div>
             {container}
