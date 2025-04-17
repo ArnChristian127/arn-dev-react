@@ -13,7 +13,7 @@ function Education() {
                 </div>
             </div>
             <div className="grid grid-cols-1 mt-20 container mx-auto">
-                <div className="flex justify-center items-center flex-col gap-5 sm:px-20 md:px-40 lg:px-80">
+                <div className="flex justify-center items-center flex-col gap-5 sm:px-20 md:px-40 lg:px-50 xl:px-80">
                     {EducationList.map((items, index) => (
                         <div className="w-full flex flex-col gap-2 stagger" key={index}>
                             <div className="flex items-center gap-2">

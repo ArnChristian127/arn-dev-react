@@ -4,6 +4,7 @@ import Skills from './components/comp-skills/Skills';
 import Projects from './components/comp-projects/Projects';
 import Education from './components/comp-education/Education';
 import Certificates from './components/comp-certificates/Certificates';
+import Contact from './components/comp-contact/Contact';
 import { animate } from 'animejs';
 import { useEffect } from 'react';
 import './App.css';
@@ -42,6 +43,7 @@ function App() {
       <Projects/>
       <Education/>
       <Certificates/>
+      <Contact/>
     </>
   );
 }
