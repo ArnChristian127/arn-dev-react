@@ -4,7 +4,6 @@ import { useEffect, useState } from 'react';
 function Projects() {
     const [clickedValue, setClickedValue] = useState(null);
     const handleClick = (items) => {
-        console.log("Clicked:", items);
         setClickedValue(items);
     };
     const handleClose = () => {
